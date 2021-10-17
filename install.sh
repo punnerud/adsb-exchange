@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO="https://github.com/adsbxchange/adsb-exchange.git"
+REPO="https://github.com/punnerud/adsb-exchange.git"
 BRANCH="master"
 IPATH=/usr/local/share/adsbexchange
 mkdir -p $IPATH
