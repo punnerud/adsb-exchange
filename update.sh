@@ -127,7 +127,7 @@ progress=4
 APT_UPDATED="false"
 
 if command -v apt &>/dev/null; then
-    required_packages+="git curl build-essential python3-dev socat python3-venv libncurses5-dev netcat uuid-runtime zlib1g-dev zlib1g"
+    required_packages+="git curl build-essential python3-dev socat libncurses5-dev netcat uuid-runtime zlib1g-dev zlib1g"
     APT_INSTALL="false"
     INSTALLED="$(dpkg-query -W -f='${PACKAGE} ${STATUS}\n')"
     packages=""
